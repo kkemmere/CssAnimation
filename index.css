@@ -22,8 +22,8 @@ h1 {
     text-align: center;
     font-weight: bold;
     padding-top: 50%;
-    left: 15%;
-    bottom: 55%;
+    left: 18%;
+    bottom: 59%;
     position: absolute;
 }
 
@@ -32,7 +32,7 @@ h1 {
     bottom: 40%;
     height: 250px;
     left: 28%;
-    top: 54%;
+    top: 50%;
 }
 
 .balloon {
@@ -40,7 +40,7 @@ h1 {
     width: 100px;
     height: 110px;
     border-radius: 50%;
-    background-color: rgba(192, 1, 5, 0.4);
+    background-color: rgba(192, 1, 5, 0.2);
     right: 255px;
     animation: move-up 5s;
     animation-iteration-count: infinite;
@@ -114,7 +114,7 @@ h1 {
 .balloon:nth-child(6) {
     left: 180px;
     background-color: rgba(190, 130, 0, 0.651);
-    animation-duration: 7s;
+    animation-duration: 7.7s;
 
 }
 .balloon:nth-child(6)::after {
@@ -146,7 +146,7 @@ h1 {
 
 .balloon:nth-child(9) {
     left: 110px;
-    background-color: rgba(51, 44, 70, 0.452);
+    background-color: rgba(25, 5, 82, 0.51);
     animation-duration: 6.2s;
 
 }
@@ -235,7 +235,7 @@ h1 {
 
 .balloon:nth-child(17) {
     left: 580px;
-    background-color: rgba(245, 160, 227, 0.452);
+    background-color: rgba(245, 160, 227, 0.51);
     animation-duration: 4.3s;
 
 }
@@ -246,7 +246,7 @@ h1 {
 
 .balloon:nth-child(18) {
     left: 428px;
-    background-color: rgba(51, 44, 70, 0.452);
+    background-color: rgba(25, 5, 82, 0.51);
     animation-duration: 3.3s;
 
 }
@@ -257,11 +257,111 @@ h1 {
 
 .balloon:nth-child(19) {
     left: 280px;
-    background-color: rgba(137, 192, 92, 0.452);
+    background-color: rgba(137, 192, 92, 0.60);
     animation-duration: 7.1s;
 
 }
 .balloon:nth-child(19)::after {
+    border-bottom: 12px solid green;
+
+}
+
+.balloon:nth-child(20) {
+    left: 295px;
+    background-color: purple;
+    animation-duration: 7s;
+
+}
+.balloon:nth-child(20)::after {
+    border-bottom: 12px solid purple;
+
+}
+
+.balloon:nth-child(21) {
+    left: 450px;
+    background-color: rgba(255, 255, 0, 0.7);
+    animation-duration: 6.123s;
+
+}
+.balloon:nth-child(21)::after {
+    border-bottom: 12px solid yellow;
+
+}
+
+.balloon:nth-child(22) {
+    left: 490px;
+    background-color: rgba(0, 190, 25, 0.55);
+    animation-duration: 6s;
+
+}
+.balloon:nth-child(22)::after {
+    border-bottom: 12px solid green;
+
+}
+
+.balloon:nth-child(23) {
+    left: 550px;
+    background-color: rgba(0, 66, 190, 0.453);
+    animation-duration: 3s;
+
+}
+.balloon:nth-child(23)::after {
+    border-bottom: 12px solid blue;
+
+}
+
+
+.balloon:nth-child(24) {
+    left: 410px;
+    background-color: rgba(190, 130, 0, 0.651);
+    animation-duration: 10s;
+
+}
+.balloon:nth-child(24)::after {
+    border-bottom: 12px solid orange;
+
+}
+
+.balloon:nth-child(25) {
+    left: 570px;
+    background-color: rgba(190, 0, 190, 0.651);
+    animation-duration: 4.4s;
+
+}
+.balloon:nth-child(25)::after {
+    border-bottom: 12px solid purple;
+
+}
+
+.balloon:nth-child(26) {
+    left: 660px;
+    background-color: rgba(245, 160, 227, 0.555);
+    animation-duration: 8s;
+
+}
+.balloon:nth-child(26)::after {
+    border-bottom: 12px solid pink;
+
+}
+
+.balloon:nth-child(27) {
+    left: 490px;
+    background-color: rgba(51, 44, 70, 0.4591);
+    animation-duration: 5s;
+
+}
+.balloon:nth-child(27)::after {
+    border-bottom: 12px solid black;
+
+}
+
+.balloon:nth-child(28) {
+    left: 370px;
+    background-color: rgba(137, 192, 92, 0.800);
+    animation-duration: 3.2s;
+
+}
+.balloon:nth-child(28)::after {
     border-bottom: 12px solid green;
 
 }
