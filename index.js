@@ -27,4 +27,6 @@ document.addEventListener("DOMContentLoaded", function randomColor() {
     }, 40);
   });
 
+
+
 //document.getElementById("headingB").style = "color: blue";
