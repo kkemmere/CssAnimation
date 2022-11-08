@@ -11,7 +11,8 @@ body {
     color: center;
     overflow-x: hidden;
     overflow-y: hidden;
-    font-size: xx-large;
+    overflow: hidden;
+    font-size: medium;
 }
 
 h1 {
@@ -22,7 +23,7 @@ h1 {
     text-align: center;
     font-weight: bold;
     padding-top: 50%;
-    left: 18%;
+    left: 15%;
     bottom: 59%;
     position: absolute;
 }
@@ -30,19 +31,20 @@ h1 {
 .monkeyType {
     position: absolute;
     bottom: 40%;
-    height: 250px;
-    left: 28%;
+    height: 230px;
+    left: 8%;
     top: 50%;
 }
 
 .balloon {
     position: absolute;
-    width: 100px;
-    height: 110px;
+    width: 80px;
+    height: 90px;
     border-radius: 50%;
     background-color: rgba(192, 1, 5, 0.2);
     right: 255px;
-    animation: move-up 5s;
+    animation: move-up 5s ease-out .5s backwards;
+    animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
 }
 
@@ -52,19 +54,19 @@ h1 {
     width: 2px;
     height: 80px;
     background-color: white;
-    top: 110px;
-    left: 50px;
+    top: 80px;
+    left: 40px;
 }
 
 
 .balloon::after {
     position: absolute;
     content: '';
-    border-bottom: 12px solid red;
+    border-bottom: 12px solid rgba(185, 62, 62, 0.8);
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
-    top: 109px;
-    left: 41px;
+    top: 79px;
+    left: 31px;
 }
 
 .balloon:nth-child(2) {
@@ -366,13 +368,27 @@ h1 {
 
 }
 
+.balloon:nth-child(29) {
+    left: 1px;
+    background-color: rgba(185, 62, 62, 0.8);
+    animation-duration: 6.7s;
+
+}
+.balloon:nth-child(29)::after {
+    border-bottom: 12px solid rgb(128, 0, 0);
+
+}
+
 
 @keyframes move-up {
     0% {
         top: 100%;
     }
+    68% {
+        top: 0%;
+    }
     100% {
-        top: -10%;
+        top: 0%; 
     }
     
 }
